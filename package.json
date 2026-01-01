@@ -1,0 +1,28 @@
+{
+  "name": "quota-puppeteer-api",
+  "version": "1.0.0",
+  "description": "Railway API for EU TARIC quota scraping with Puppeteer",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "keywords": [
+    "puppeteer",
+    "scraping",
+    "taric",
+    "quota",
+    "railway"
+  ],
+  "author": "DPRC Lab",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "puppeteer": "^23.10.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
